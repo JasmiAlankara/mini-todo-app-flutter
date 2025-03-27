@@ -83,7 +83,9 @@ class _TodoListScreenState extends State<TodoListScreen> {
               decoration: InputDecoration(
                 prefixIcon: Icon(Icons.search),
                 hintText: 'Search',
-                border: OutlineInputBorder(),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(30), // Rounded corners
+                ),
               ),
             ),
             SizedBox(height: 16),
@@ -157,4 +159,3 @@ class _TodoListScreenState extends State<TodoListScreen> {
     );
   }
 }
-// comment ekk
